@@ -1,10 +1,13 @@
   <html>
     <script>
-      let butt = document.getElementById("My-butt");
-      butt.onclick (()=>{
-        let pepehands = document.createElement("img");
-        pepehands.src = "https://i.kym-cdn.com/entries/icons/mobile/000/025/382/Screen_Shot_2018-02-06_at_3.37.14_PM.jpg";
-        document.getElementById("bod").addElement(pepehands);
+      document.addEventListener("DOMContentLoaded",function(){
+        
+        let butt = document.getElementById("My-butt");
+        butt.onclick (()=>{
+          let pepehands = document.createElement("img");
+          pepehands.src = "https://i.kym-cdn.com/entries/icons/mobile/000/025/382/Screen_Shot_2018-02-06_at_3.37.14_PM.jpg";
+          document.getElementById("bod").addElement(pepehands);
+        });
       });
     </script>
     <body id="bod">
